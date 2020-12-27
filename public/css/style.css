@@ -1,0 +1,46 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.maine-con{
+    flex-grow: 1;
+}
+
+footer{
+    border-top: solid 1px #b6b6b6;
+    margin-top: 60px;
+}
+
+header{
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header a{
+    text-decoration: none;
+    color: #333333;
+    margin-right: 16px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background:  #888888;
+    color: white;
+    padding: 8px;
+}
